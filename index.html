@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Serene Light Wellness | Reiki &amp; Home Cleansing</title>
+  <meta name="description" content="Demo website for a fictional wellness business offering Reiki sessions and home cleansing, with online booking.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="demo-banner">Demo website. Serene Light Wellness is a fictional business and no bookings are sent.</div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#top" class="logo">Serene <span>Light</span></a>
+      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="site-nav" class="site-nav">
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#how">How it works</a>
+        <a href="#faq">FAQ</a>
+        <a href="#booking" class="btn btn-small">Book now</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-inner">
+        <p class="eyebrow">Reiki &amp; Home Cleansing</p>
+        <h1>Find calm, balance and a fresh start</h1>
+        <p class="lead">Gentle Reiki sessions and home energy cleansing to help you relax, recharge and feel at peace in your space.</p>
+        <div class="hero-actions">
+          <a href="#booking" class="btn">Book a session</a>
+          <a href="#services" class="btn btn-ghost">View services</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container">
+        <h2 class="section-title">Services</h2>
+        <p class="section-intro">Choose the service that suits you. Every session is booked online in a few clicks.</p>
+        <div class="cards">
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 21s-7-4.4-9.3-9A5.2 5.2 0 0 1 12 6.2 5.2 5.2 0 0 1 21.3 12C19 16.6 12 21 12 21z"/></svg>
+            </div>
+            <h3>Reiki Session</h3>
+            <p>A calming, hands-on energy session to reduce stress, ease tension and restore balance.</p>
+            <ul class="details">
+              <li><strong>60 minutes</strong></li>
+              <li>In person or remote</li>
+            </ul>
+            <p class="price">£55</p>
+            <a href="#booking" class="btn btn-outline" data-service="reiki">Book Reiki</a>
+          </article>
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M3 11 12 3l9 8v10a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg>
+            </div>
+            <h3>Home Cleansing</h3>
+            <p>Clear stagnant energy from your home and create a lighter, more peaceful space to live in.</p>
+            <ul class="details">
+              <li><strong>90 minutes</strong></li>
+              <li>At your home</li>
+            </ul>
+            <p class="price">£85</p>
+            <a href="#booking" class="btn btn-outline" data-service="cleansing">Book Cleansing</a>
+          </article>
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm1 15h-2v-6h2zm0-8h-2V7h2z"/></svg>
+            </div>
+            <h3>Free Consultation</h3>
+            <p>Not sure where to start? Have a short chat to find the right service for you.</p>
+            <ul class="details">
+              <li><strong>15 minutes</strong></li>
+              <li>Phone or video call</li>
+            </ul>
+            <p class="price">Free</p>
+            <a href="#booking" class="btn btn-outline" data-service="consultation">Book Consultation</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section section-tint">
+      <div class="container about">
+        <div class="about-art" aria-hidden="true"></div>
+        <div>
+          <h2 class="section-title left">About</h2>
+          <p>Serene Light Wellness offers a quiet, welcoming space to slow down and reconnect. Every session is tailored to you, whether you want to ease stress, feel more balanced or bring fresh energy into your home.</p>
+          <p>Booking is simple: choose a service, pick a time that suits you, and you'll get a confirmation straight away.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="how" class="section">
+      <div class="container">
+        <h2 class="section-title">How it works</h2>
+        <ol class="steps">
+          <li><span>1</span><h3>Choose a service</h3><p>Pick Reiki, Home Cleansing or a free consultation.</p></li>
+          <li><span>2</span><h3>Pick a time</h3><p>Select a date and an available time slot.</p></li>
+          <li><span>3</span><h3>Get confirmed</h3><p>Receive your booking confirmation instantly.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="booking" class="section section-tint">
+      <div class="container">
+        <h2 class="section-title">Book your session</h2>
+        <p class="section-intro">This is a demo booking form. On a real site, this would connect to a booking service such as Cal.com or Calendly.</p>
+
+        <form id="booking-form" class="booking" novalidate>
+          <fieldset>
+            <legend>1. Service</legend>
+            <div class="options" role="radiogroup">
+              <label class="option"><input type="radio" name="service" value="reiki" required><span>Reiki Session<small>60 min · £55</small></span></label>
+              <label class="option"><input type="radio" name="service" value="cleansing"><span>Home Cleansing<small>90 min · £85</small></span></label>
+              <label class="option"><input type="radio" name="service" value="consultation"><span>Free Consultation<small>15 min · Free</small></span></label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>2. Date and time</legend>
+            <label class="field">Date
+              <input type="date" id="date" name="date" required>
+            </label>
+            <div id="slots" class="slots" aria-live="polite"><p class="hint">Choose a date to see available times.</p></div>
+          </fieldset>
+
+          <fieldset>
+            <legend>3. Your details</legend>
+            <div class="row">
+              <label class="field">Name
+                <input type="text" id="name" name="name" autocomplete="name" required>
+              </label>
+              <label class="field">Email
+                <input type="email" id="email" name="email" autocomplete="email" required>
+              </label>
+            </div>
+            <label class="field">Anything you'd like us to know? <span class="optional">(optional)</span>
+              <textarea id="notes" name="notes" rows="3" maxlength="500"></textarea>
+            </label>
+          </fieldset>
+
+          <p id="form-error" class="error" role="alert" hidden></p>
+          <button type="submit" class="btn btn-block">Confirm booking</button>
+        </form>
+
+        <div id="confirmation" class="confirmation" hidden tabindex="-1">
+          <div class="check" aria-hidden="true">✓</div>
+          <h3>You're booked in!</h3>
+          <p id="confirm-text"></p>
+          <p class="hint">Demo only. No booking was sent and no details were stored.</p>
+          <button type="button" id="book-another" class="btn btn-outline">Make another booking</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="section">
+      <div class="container narrow">
+        <h2 class="section-title">Frequently asked questions</h2>
+        <details>
+          <summary>What happens during a Reiki session?</summary>
+          <p>You relax fully clothed while the practitioner uses gentle hand positions. Most people find it deeply calming.</p>
+        </details>
+        <details>
+          <summary>Can I have a session remotely?</summary>
+          <p>Yes. Reiki sessions can be held remotely at the time you book.</p>
+        </details>
+        <details>
+          <summary>How do I cancel or change a booking?</summary>
+          <p>You can reschedule or cancel up to 24 hours before your session using the link in your confirmation email.</p>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="logo">Serene <span>Light</span></p>
+      <p>Demo project built with HTML, CSS and JavaScript.</p>
+      <p>&copy; <span id="year"></span> Serene Light Wellness (fictional)</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
