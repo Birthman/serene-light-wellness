@@ -2,7 +2,7 @@
 
 A clean, responsive website for a **fictional** wellness business offering Reiki sessions and home cleansing, with a step-by-step online booking form.
 
-**Live demo:** https://YOUR-USERNAME.github.io/serene-light-wellness/
+**Live demo:** https://birthman.github.io/serene-light-wellness/
 
 ![Screenshot](screenshot.png)
 
